@@ -1,5 +1,5 @@
 # Using git
-Installing git:- 
+Installing git:-   
 ```sudo apt-get install git```
 
 Setup username:-  
