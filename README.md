@@ -12,16 +12,16 @@ Note:-
 Installing git:-   
 ```sudo apt-get install git```
 
-Setup username:-  
-```git config --global user.name "kulbir-ahluwalia"```
-Setup email:-
-```git config --global user.email "kulbir@terpmail.umd.edu"```
+Setup username:-    
+```git config --global user.name "kulbir-ahluwalia"```  
+Setup email:-  
+```git config --global user.email "kulbir@terpmail.umd.edu"```  
 
-Make a directory in your PC:-
+Make a directory in your PC:-  
 ```cd Documents/  
-mkdir OOP
+mkdir OOP  
 
 
 
-# OOP_Python
-OOP practice using Python
+# OOP_Python  
+OOP practice using Python  
