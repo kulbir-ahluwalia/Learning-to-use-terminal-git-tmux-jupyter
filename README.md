@@ -38,7 +38,7 @@ git add README.md
 git commit -m "first commit"    
 
 #to add the remote origin, link the local directory on PC with the GitHub directory  
-git remote add origin https://github.com/kulbir-ahluwalia/OOP_Python.git    
+git remote add origin https://github.com/kulbir-ahluwalia/OOP_Python_Practice.git  
 
 #to push your changes  
 git push -u origin master     
