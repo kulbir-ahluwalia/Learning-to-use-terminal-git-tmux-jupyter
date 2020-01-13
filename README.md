@@ -7,7 +7,20 @@ Note:-
 5. Switch between workspaces using Ctrl+Alt+arrow keys.
 6. To enable workspaces, go to System settings>Appearance>Enable workspaces.
 
+Using the copy command with Recursive search (-R for recursive and -i for interactive):-
+Note:-
+1. The path from where the file is **copied from** is written first.
+2. The path where the file is **copied to** is written afterwards.
+3. Use sudo to get permissions for copying
+```
+sudo cp -Ri Source_Folder Destination_Folder
+sudo cp -Ri ~/Downloads/tmux.conf  /usr/share/doc/tmux/examples
+```
 
+For copying using GUI:-
+```
+gksu nautilus
+```
 
 Installing git:-   
 ```sudo apt-get install git```
