@@ -22,13 +22,21 @@ Make a directory in your PC:-
 mkdir OOP
 cd OOP/  
 ```
-Create a new repository on the command line:-
+To create a new repository on the command line:-
 ```
 echo "# gittest" >> README.md  
 git init  
 git add readme.md  
 git commit -m "first commit"  
-git remote add origin 
+git remote add origin https://github.com/kulbir-ahluwalia/OOP_Python.git  
+git push -u origin master   
+``` 
+
+To push an existing repository from the command line:-
+```
+git remote add origin https://github.com/kulbir-ahluwalia/OOP_Python.git  
+git push -u origin master
+
 
 
 
