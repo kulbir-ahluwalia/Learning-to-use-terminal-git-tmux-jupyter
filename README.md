@@ -24,19 +24,19 @@ cd OOP/
 ```
 To create a new repository on the command line:-
 ```
-echo "# gittest" >> README.md  
-git init  
-git add readme.md  
-git commit -m "first commit"  
-git remote add origin https://github.com/kulbir-ahluwalia/OOP_Python.git  
-git push -u origin master   
+echo "# gittest" >> README.md  #to create a readme file  
+git init # to initialize empty git repository in the directory /home/kulbir/Documents/OOP/.git/  
+git add README.md  #to add the readme file  
+git commit -m "first commit"  #to commit your file and save your changes, comment regarding the purpose of the commit in double quotes  
+git remote add origin https://github.com/kulbir-ahluwalia/OOP_Python.git  #to add the remote origin, link the local directory on PC to GitGub directory
+git push -u origin master   #to push your changes
 ``` 
 
 To push an existing repository from the command line:-
 ```
 git remote add origin https://github.com/kulbir-ahluwalia/OOP_Python.git  
 git push -u origin master
-
+```
 
 
 
