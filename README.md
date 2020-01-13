@@ -22,20 +22,32 @@ Make a directory in your PC:-
 mkdir OOP
 cd OOP/  
 ```
-To create a new repository on the command line:-
+To create a new repository on the command line:-  
 ```
-echo "# gittest" >> README.md  #to create a readme file  
-git init # to initialize empty git repository in the directory /home/kulbir/Documents/OOP/.git/  
-git add README.md  #to add the readme file  
-git commit -m "first commit"  #to commit your file and save your changes, comment regarding the purpose of the commit in double quotes  
-git remote add origin https://github.com/kulbir-ahluwalia/OOP_Python.git  #to add the remote origin, link the local directory on PC to GitGub directory
-git push -u origin master   #to push your changes
+#to create a readme file   
+echo "# gittest" >> README.md   
+
+# to initialize empty git repository in the directory /home/kulbir/Documents/OOP/.git/   
+git init   
+
+#to add the readme file   
+git add README.md   
+
+#to commit your file and save your changes  
+#The comment regarding the purpose of the commit is written in double quotes  
+git commit -m "first commit"    
+
+#to add the remote origin, link the local directory on PC with the GitHub directory  
+git remote add origin https://github.com/kulbir-ahluwalia/OOP_Python.git    
+
+#to push your changes  
+git push -u origin master     
 ``` 
 
 To push an existing repository from the command line:-
 ```
-git remote add origin https://github.com/kulbir-ahluwalia/OOP_Python.git  
-git push -u origin master
+git remote add origin https://github.com/kulbir-ahluwalia/OOP_Python.git    
+git push -u origin master  
 ```
 
 
