@@ -1,4 +1,4 @@
-# Helpful tips and commands for using the **terminal**
+# Helpful tips and commands for using the terminal
 
 Note:-
 1. For copying in terminal, use Ctrl+Shift+C. 
