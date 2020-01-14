@@ -1,4 +1,5 @@
-# Using git to setup a repository for our python files
+# Helpful tips and commands for using the **terminal**
+
 Note:-
 1. For copying in terminal, use Ctrl+Shift+C. 
 2. For pasting in terminal, use Ctrl+Shift+V.
@@ -9,7 +10,7 @@ Note:-
 7. A period as the first character in the file name indicates that it’s a hidden file. For example, **~/.tmux.conf** is a hidden file at the location **~**.
 8. ~ refers to the path **/home/kulbir**
 9. To check your working directory, use the command **pwd**. It will tell you the path of the current working directory.
-
+10. You probably know this, but yes, I will write it. The shortcut to open the terminal is **Ctrl+Alt+T**. 
 
 Using the copy command with Recursive search (-R for recursive and -i for interactive):-
 Note:-
@@ -24,7 +25,9 @@ sudo cp -Ri ~/Downloads/tmux.conf  /usr/share/doc/tmux/examples
 For copying using GUI:-
 ```
 gksu nautilus
+
 ```
+# Using git to setup a repository for our python files
 
 Installing git:-   
 ```sudo apt-get install git```
