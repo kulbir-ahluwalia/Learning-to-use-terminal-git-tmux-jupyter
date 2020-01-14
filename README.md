@@ -12,17 +12,18 @@ Note:-
 9. To check your working directory, use the command **pwd**. It will tell you the path of the current working directory.
 10. You probably know this, but yes, I will write it. The shortcut to open the terminal is **Ctrl+Alt+T**. 
 
+# For copying using the terminal
 Using the copy command with Recursive search (-R for recursive and -i for interactive):-
-Note:-
 1. The path from where the file is **copied from** is written first.
 2. The path where the file is **copied to** is written afterwards.
 3. Use sudo to get permissions for copying
+
 ```
 sudo cp -Ri Source_Folder Destination_Folder
 sudo cp -Ri ~/Downloads/tmux.conf  /usr/share/doc/tmux/examples
 ```
 
-For copying using GUI:-
+# For copying files using GUI:-
 ```
 gksu nautilus
 
