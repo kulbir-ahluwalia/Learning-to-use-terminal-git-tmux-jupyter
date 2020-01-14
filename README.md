@@ -75,6 +75,3 @@ git push -u origin master
 1. https://rogerdudler.github.io/git-guide/
 2. https://youtu.be/SwK2dPFXhpU
 
-
-# OOP_Python  
-OOP practice using Python  
