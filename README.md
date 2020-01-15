@@ -1,6 +1,8 @@
-# Helpful tips and commands for using the terminal
-
 Note:-
+1. To align a window to the left half of the screen, use Ctrl+Windows+left arrow 
+2. To align a window to the right half of the screen, use Ctrl+Windows+right arrow 
+
+# Helpful tips and commands for using the terminal
 1. For copying in terminal, use Ctrl+Shift+C. 
 2. For pasting in terminal, use Ctrl+Shift+V.
 3. Use Tab for auto completion wherever possible.
