@@ -1,5 +1,9 @@
 Credits: I am thankful to my friends Sandeep Kota and Vishnu Dorbala for their support and guidance. The following work largely consists of tips and tricks I learnt from them.
 
+---
+**Basic writing and formatting syntax for GitHub** - https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax
+---
+
 ```
 Note:-
 1. To align a window to the left half of the screen, use Ctrl+Windows+left arrow 
@@ -11,10 +15,11 @@ Note:-
 1. For copying in terminal, use Ctrl+Shift+C. 
 2. For pasting in terminal, use Ctrl+Shift+V.
 3. Use Tab for auto completion wherever possible.
-4. Use workspaces to increase productivity. Shift windows to different workspaces using Ctrl+Shift+Alt+arrow keys.
 ---
+4. Use workspaces to increase productivity. Shift windows to different workspaces using Ctrl+Shift+Alt+arrow keys.
 5. Switch between workspaces using Ctrl+Alt+arrow keys.
 6. To enable workspaces, go to System settings>Appearance>Enable workspaces.
+---
 7. A period "**.**" as the first character in the file name indicates that it’s a hidden file. For example, **~/.tmux.conf** is a hidden file at the location **~**.
 8. **~** refers to the path **/home/kulbir**
 9. To check your working directory, use the command **pwd**. It will tell you the path of the current working directory.
@@ -34,6 +39,7 @@ sudo cp -Ri ~/Downloads/tmux.conf  /usr/share/doc/tmux/examples
 # For copying files using GUI:-
 ```
 gksu nautilus
+---
 
 ```
 # Using git to setup a repository for our python files
@@ -72,12 +78,14 @@ git remote add origin https://github.com/kulbir-ahluwalia/OOP_Python.git
 #to push your changes  
 git push -u origin master     
 ``` 
+---
 
 To push an existing repository from the command line:-
 ```
 git remote add origin https://github.com/kulbir-ahluwalia/OOP_Python.git  
 git push -u origin master  
 ```
+---
 # Using the terminal multiplexer "TMUX"
 Hit the Prefix key defined as "Ctrl+B" before each of the follwing command:-
 ```
@@ -95,7 +103,7 @@ Hit the Prefix key defined as "Ctrl+B" before each of the follwing command:-
 
 ```
 
-
+---
 # References
 1. For git commands - https://rogerdudler.github.io/git-guide/
 2. For using git and GitHub - https://youtu.be/SwK2dPFXhpU
