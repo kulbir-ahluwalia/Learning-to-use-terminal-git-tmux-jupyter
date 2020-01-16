@@ -70,7 +70,7 @@ When you create the repository on GitHub don't provide any description or initia
 So that you get the following menu with all the commands for setting the repo up:-
 <!--For displaying image in GitHub-->
 
-<img src="menu_ repo.png" class="img-responsive" alt=""> </div>
+<img src= "menu_ repo.png" class="img-responsive" alt=""> </div>
 
 
 ---
