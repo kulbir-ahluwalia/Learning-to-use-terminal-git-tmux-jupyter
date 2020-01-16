@@ -77,7 +77,7 @@ git push -u origin master
 # Using the terminal multiplexer "TMUX"
 Hit the Prefix key defined as "Ctrl+B" before each of the follwing command:-
 ```
-1. **%** - for vertical splitting of the terminal into two terminals
+1. % - for vertical splitting of the terminal into two terminals
 2. " - for horizontal splitting of the terminal into two terminals
 3. Arrow keys - to switch between terminals
 4. z - to zoom in on the selected terminal. (Note: Use the same command to zoom out)
