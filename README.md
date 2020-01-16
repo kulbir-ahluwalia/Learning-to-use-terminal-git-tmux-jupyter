@@ -3,6 +3,7 @@ Credits: I am thankful to my friends Sandeep Kota and Vishnu Dorbala for their s
 Note:-
 1. To align a window to the left half of the screen, use Ctrl+Windows+left arrow 
 2. To align a window to the right half of the screen, use Ctrl+Windows+right arrow 
+3. You can use .conf files to configure applications like the Z shell or TMUX. ".conf" stands for a **configuration** file used in Ubuntu in this case.
 
 # Helpful tips and commands for using the terminal
 1. For copying in terminal, use Ctrl+Shift+C. 
