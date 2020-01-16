@@ -12,6 +12,7 @@ Note:-
 2. For pasting in terminal, use Ctrl+Shift+V.
 3. Use Tab for auto completion wherever possible.
 4. Use workspaces to increase productivity. Shift windows to different workspaces using Ctrl+Shift+Alt+arrow keys.
+---
 5. Switch between workspaces using Ctrl+Alt+arrow keys.
 6. To enable workspaces, go to System settings>Appearance>Enable workspaces.
 7. A period "**.**" as the first character in the file name indicates that it’s a hidden file. For example, **~/.tmux.conf** is a hidden file at the location **~**.
