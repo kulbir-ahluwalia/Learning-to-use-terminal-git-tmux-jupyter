@@ -64,8 +64,17 @@ cd Documents/
 mkdir OOP
 cd OOP/ 
 ```
+---
+Helpful tip:-
+When you create the repository on GitHub don't provide any description or initialise it with a README.md file. 
+So that you get the following menu with all the commands for setting the repo up:-
+<!--For displaying image in GitHub-->
+<img src="output.png" class="img-responsive" alt=""> </div>
 
-To create a new repository on the command line:-  
+
+---
+
+To create a new repository on the command line:-
 ```bash
 #to create a readme file   
 echo "# OOP_Python" >> README.md    
