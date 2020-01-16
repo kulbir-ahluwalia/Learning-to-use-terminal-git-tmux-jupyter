@@ -107,6 +107,8 @@ git remote add origin https://github.com/kulbir-ahluwalia/OOP_Python.git
 #to push your changes  
 git push -u origin master     
 ```
+
+### Adding new files using git
 Create a new file in the directory /home/kulbir/Documents/OOP_Python:-  
 ```bash
 nano OOP_practice_instances1.py 
@@ -124,11 +126,32 @@ To add the remote origin, link the local directory on PC with the GitHub directo
 ```
 git remote add origin https://github.com/kulbir-ahluwalia/OOP_Python.git 
 ```
-To push your changes:-  
+To push your changes:- 
+Note: When you use the following command, the terminal will retun the message "1 file changed, 1 insertion(+) "
 ```
 git push -u origin master  
 ```
+---
 
+### Removing files using git 
+
+To remove the file from the git repository and from the directory on your system:-
+Note: "rm" stands for "remove". When you use the following commands, the terminal will retun the message "1 file changed, 1 deletion(-)"
+
+```
+git rm OOP_practice_instances1.py  
+git commit -m "deleted OOP_practice_instances1.py"
+```
+---
+To remove the file only from the git repository and not from the directory on your system:-
+
+git rm --cached OOP_practice_instances1.py
+git commit -m "deleted OOP_practice_instances1.py"
+
+To push changes to repository on GitHub:-
+```bash
+git push origin branch_name  
+```
 
 ---
 
