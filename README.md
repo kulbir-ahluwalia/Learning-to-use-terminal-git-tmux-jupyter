@@ -70,7 +70,7 @@ To create a new repository on the command line:-
 #to create a readme file   
 echo "# OOP_Python" >> README.md    
 
-# to initialize empty git repository in the directory /home/kulbir/Documents/OOP/.git/   
+# to initialize empty git repository in the directory /home/kulbir/Documents/OOP_Python/.git/   
 git init   
 
 #to add the readme file   
