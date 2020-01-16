@@ -74,9 +74,23 @@ To push an existing repository from the command line:-
 git remote add origin https://github.com/kulbir-ahluwalia/OOP_Python.git  
 git push -u origin master  
 ```
+# Using the terminal multiplexer "TMUX"
+Hit the Prefix key defined as "Ctrl+B" before each of the follwing command:-
+```
+1. % - for vertical splitting of the terminal into two terminals
+2. " - for horizontal splitting of the terminal into two terminals
+3. Arrow keys - to switch between terminals
+4. z - to zoom in on the selected terminal. (Note: Use the same command to zoom out)
+5. Hold the Ctrl key - resize the terminal
+6. Spacebar - to switch between different arrangements of the terminals
+7. { - to move the selected terminal to the left
+8. } - to move the selected terminal to the right
+
+```
 
 
 # References
-1. https://rogerdudler.github.io/git-guide/
-2. https://youtu.be/SwK2dPFXhpU
+1. For git commands - https://rogerdudler.github.io/git-guide/
+2. For using git and GitHub - https://youtu.be/SwK2dPFXhpU
+3. For TMUX - https://youtu.be/Lqehvpe_djs
 
