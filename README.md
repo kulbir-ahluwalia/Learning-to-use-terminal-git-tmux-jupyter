@@ -1,3 +1,5 @@
+Credits: I am thankful to my friends Sandeep Kota and Vishnu Dorbala for their support and guidance. The following work largely consists of tips and tricks I learnt from them.
+
 Note:-
 1. To align a window to the left half of the screen, use Ctrl+Windows+left arrow 
 2. To align a window to the right half of the screen, use Ctrl+Windows+right arrow 
@@ -48,7 +50,7 @@ cd OOP/
 To create a new repository on the command line:-  
 ```
 #to create a readme file   
-echo "# gittest" >> README.md   
+echo "# OOP_Python" >> README.md    
 
 # to initialize empty git repository in the directory /home/kulbir/Documents/OOP/.git/   
 git init   
@@ -61,7 +63,7 @@ git add README.md
 git commit -m "first commit"    
 
 #to add the remote origin, link the local directory on PC with the GitHub directory  
-git remote add origin https://github.com/kulbir-ahluwalia/OOP_Python_Practice.git  
+git remote add origin https://github.com/kulbir-ahluwalia/OOP_Python.git   
 
 #to push your changes  
 git push -u origin master     
@@ -69,7 +71,7 @@ git push -u origin master
 
 To push an existing repository from the command line:-
 ```
-git remote add origin https://github.com/kulbir-ahluwalia/OOP_Python.git    
+git remote add origin https://github.com/kulbir-ahluwalia/OOP_Python.git  
 git push -u origin master  
 ```
 
