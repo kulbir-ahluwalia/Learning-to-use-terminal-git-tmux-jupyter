@@ -111,6 +111,8 @@ Hit the Prefix key defined as "Ctrl+B" before each of the follwing command:-
 
 ```
 
+All the commands for TMUX can be found here: https://linux.die.net/man/1/tmux
+
 ---
 # References
 1. For git commands - https://rogerdudler.github.io/git-guide/
