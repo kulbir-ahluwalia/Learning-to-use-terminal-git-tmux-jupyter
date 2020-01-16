@@ -1,7 +1,8 @@
 Credits: I am thankful to my friends Sandeep Kota and Vishnu Dorbala for their support and guidance. The following work largely consists of tips and tricks I learnt from them.
 
 ---
-**Basic writing and formatting syntax for GitHub** - https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax
+**Basic writing and formatting syntax for GitHub** 
+- https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax
 ---
 
 ```
@@ -39,9 +40,8 @@ sudo cp -Ri ~/Downloads/tmux.conf  /usr/share/doc/tmux/examples
 # For copying files using GUI:-
 ```
 gksu nautilus
----
-
 ```
+---
 # Using git to setup a repository for our python files
 
 Installing git:-   
