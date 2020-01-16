@@ -14,7 +14,7 @@ Note:-
 4. Use workspaces to increase productivity. Shift windows to different workspaces using Ctrl+Shift+Alt+arrow keys.
 5. Switch between workspaces using Ctrl+Alt+arrow keys.
 6. To enable workspaces, go to System settings>Appearance>Enable workspaces.
-7. A period **.** as the first character in the file name indicates that it’s a hidden file. For example, **~/.tmux.conf** is a hidden file at the location **~**.
+7. A period "**.**" as the first character in the file name indicates that it’s a hidden file. For example, **~/.tmux.conf** is a hidden file at the location **~**.
 8. **~** refers to the path **/home/kulbir**
 9. To check your working directory, use the command **pwd**. It will tell you the path of the current working directory.
 10. You probably know this, but yes, I will write it. The shortcut to open the terminal is **Ctrl+Alt+T**. 
@@ -88,6 +88,8 @@ Hit the Prefix key defined as "Ctrl+B" before each of the follwing command:-
 6. Spacebar - to switch between different arrangements of the terminals
 7. { - to move the selected terminal to the left
 8. } - to move the selected terminal to the right
+9. c - to open a new window in TMUX
+10. Ctrl+B follwed by **whatever your window's number is** - Will switch to that particular window in TMUX
 
 ```
 
