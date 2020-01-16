@@ -1,9 +1,5 @@
 Credits: I am thankful to my friends Sandeep Kota and Vishnu Dorbala for their support and guidance. The following work largely consists of tips and tricks I learnt from them.
 
----
-**Basic writing and formatting syntax for GitHub** 
-- https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax
----
 
 ```
 Note:-
@@ -41,7 +37,18 @@ sudo cp -Ri ~/Downloads/tmux.conf  /usr/share/doc/tmux/examples
 ```bash
 gksu nautilus
 ```
+
+
 ---
+**Basic writing and formatting syntax for GitHub** 
+- https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax
+1. Double space is used for changing the line
+2. Format for comments:-
+```
+<!--Insert your comment here-->
+```
+---
+
 # Using git to setup a repository for our python files
 
 Installing git:-   
@@ -75,7 +82,7 @@ So that you get the following menu with all the commands for setting the repo up
 
 ---
 
-To create a new repository on the command line:-
+To create a new repository on the command line:-  
 ```bash
 #to create a readme file   
 echo "# OOP_Python" >> README.md    
@@ -95,7 +102,30 @@ git remote add origin https://github.com/kulbir-ahluwalia/OOP_Python.git
 
 #to push your changes  
 git push -u origin master     
-``` 
+```
+Create a new file in the directory /home/kulbir/Documents/OOP_Python:-  
+```bash
+nano OOP_practice_instances1.py 
+```
+To add the new file:-  
+```
+ git add OOP_practice_instances1.py  
+```
+To commit the file and save the changes with a custom comment describing the changes:-  
+
+```
+git commit -m "OOP_python_instances"
+```
+To add the remote origin, link the local directory on PC with the GitHub directory (If you haven't already done it) :-  
+```
+git remote add origin https://github.com/kulbir-ahluwalia/OOP_Python.git 
+```
+To push your changes:-  
+```
+git push -u origin master  
+```
+
+
 ---
 
 To push an existing repository from the command line:-
