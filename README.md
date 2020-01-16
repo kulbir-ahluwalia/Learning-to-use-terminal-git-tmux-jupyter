@@ -144,22 +144,17 @@ git commit -m "deleted OOP_practice_instances1.py"
 ```
 ---
 To remove the file only from the git repository and not from the directory on your system:-
-
+```
 git rm --cached OOP_practice_instances1.py
 git commit -m "deleted OOP_practice_instances1.py"
-
-To push changes to repository on GitHub:-
-```bash
-git push origin branch_name  
 ```
 
----
-
-To push an existing repository from the command line:-
+To push changes to the existing repository on GitHub:-
 ```bash
-git remote add origin https://github.com/kulbir-ahluwalia/OOP_Python.git  
-git push -u origin master  
+git remote add origin https://github.com/kulbir-ahluwalia/OOP_Python.git 
+git push -u origin master 
 ```
+
 ---
 # Using the terminal multiplexer "TMUX"
 Hit the Prefix key defined as "Ctrl+B" before each of the follwing command:-
