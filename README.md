@@ -47,6 +47,10 @@ gksu nautilus
 ```
 <!--Insert your comment here-->
 ```
+3. To insert an image, first upload the image to the repo and then:-
+```
+<img src= "name of the image with extension" class="img-responsive" alt=""> </div>
+```
 ---
 
 # Using git to setup a repository for our python files
