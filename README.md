@@ -40,7 +40,7 @@ gksu nautilus
 
 
 ---
-**Basic writing and formatting syntax for GitHub** 
+# Basic writing and formatting syntax for GitHub
 - https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax
 1. Double space is used for changing the line
 2. Format for comments:-
