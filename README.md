@@ -32,7 +32,7 @@ Using the copy command with Recursive search (-R for recursive and -i for intera
 2. The path where the file is **copied to** is written afterwards.
 3. Use sudo to get permissions for copying as shown:-
 
-```
+```bash
 sudo cp -Ri Source_Folder Destination_Folder
 sudo cp -Ri ~/Downloads/tmux.conf  /usr/share/doc/tmux/examples
 ```
