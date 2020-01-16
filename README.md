@@ -38,27 +38,35 @@ sudo cp -Ri ~/Downloads/tmux.conf  /usr/share/doc/tmux/examples
 ```
 
 # For copying files using GUI:-
-```
+```bash
 gksu nautilus
 ```
 ---
 # Using git to setup a repository for our python files
 
 Installing git:-   
-```sudo apt-get install git```
+```bash
+sudo apt-get install git```
 
 Setup username:-    
-```git config --global user.name "kulbir-ahluwalia"```  
+```bash
+git config --global user.name "kulbir-ahluwalia"
+```  
+
 Setup email:-  
-```git config --global user.email "kulbir@terpmail.umd.edu"```  
+```bash
+git config --global user.email "kulbir@terpmail.umd.edu" 
+```  
 
 Make a directory in your PC:-  
-```cd Documents/  
+```bash
+cd Documents/  
 mkdir OOP
-cd OOP/  
+cd OOP/ 
 ```
+
 To create a new repository on the command line:-  
-```
+```bash
 #to create a readme file   
 echo "# OOP_Python" >> README.md    
 
@@ -81,14 +89,14 @@ git push -u origin master
 ---
 
 To push an existing repository from the command line:-
-```
+```bash
 git remote add origin https://github.com/kulbir-ahluwalia/OOP_Python.git  
 git push -u origin master  
 ```
 ---
 # Using the terminal multiplexer "TMUX"
 Hit the Prefix key defined as "Ctrl+B" before each of the follwing command:-
-```
+```bash
 1. % - for vertical splitting of the terminal into two terminals
 2. " - for horizontal splitting of the terminal into two terminals
 3. Arrow keys - to switch between terminals
