@@ -23,7 +23,7 @@ Note:-
 Using the copy command with Recursive search (-R for recursive and -i for interactive):-
 1. The path from where the file is **copied from** is written first.
 2. The path where the file is **copied to** is written afterwards.
-3. Use sudo to get permissions for copying
+3. Use sudo to get permissions for copying as shown:-
 
 ```
 sudo cp -Ri Source_Folder Destination_Folder
@@ -90,6 +90,7 @@ Hit the Prefix key defined as "Ctrl+B" before each of the follwing command:-
 8. } - to move the selected terminal to the right
 9. c - to open a new window in TMUX
 10. Ctrl+B follwed by **whatever your window's number is** - Will switch to that particular window in TMUX
+11. [ - to enter scroll mode. Use arrow keys or the mouse after entering scroll mode to scroll. Hit "q" to exit scroll mode.
 
 ```
 
