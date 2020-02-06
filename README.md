@@ -57,7 +57,8 @@ gksu nautilus
 
 Installing git:-   
 ```bash
-sudo apt-get install git```
+sudo apt-get install git
+```
 
 Setup username:-    
 ```bash
@@ -110,6 +111,7 @@ git push -u origin master
 
 ### Adding new files using git
 Create a new file in the directory /home/kulbir/Documents/OOP_Python:-  
+
 ```bash
 nano OOP_practice_instances1.py 
 ```
