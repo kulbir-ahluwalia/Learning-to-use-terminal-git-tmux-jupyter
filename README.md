@@ -121,7 +121,7 @@ To add the new file:-
  git add *    #to add all the files in the current working directory
  git add .    #alternate way to add all the files in the current working directory
  git add --all  #to add all files in the folder irrespective of your current working directory
- git add --A    #alternate way to add all files in the folder irrespective of your current working directory
+ git add -A    #alternate way to add all files in the folder irrespective of your current working directory
 
 ```
 To commit the file and save the changes with a custom comment describing the changes:-  
