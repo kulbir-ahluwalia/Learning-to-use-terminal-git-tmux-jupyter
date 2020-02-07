@@ -200,4 +200,5 @@ jupyter notebook #to launch the jupyter notebook
 1. For git commands - https://rogerdudler.github.io/git-guide/
 2. For using git and GitHub - https://youtu.be/SwK2dPFXhpU
 3. For TMUX - https://youtu.be/Lqehvpe_djs
+4. For git commands with examles - https://rubygarage.org/blog/most-basic-git-commands-with-examples
 
