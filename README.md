@@ -201,10 +201,14 @@ To go into command mode, click in the area between the margin of the cell and th
 To go into edit mode, just click in the typing area.
 
 
-
-## Jupyter keybaord shortcuts
+## Jupyter keybaord shortcuts for the command mode
 1. To run a cell and then move to the next cell - ```Shift```+```Enter``` 
-2. To just run a cell and stay in that cell - ```Ctrl```+```Enter```  
+2. To just run a cell and stay in that cell - ```Ctrl```+```Enter``` 
+3. To run the cell and make a new cell below it - ```Alt```+```Enter```
+4. To insert a cell above - ```A```
+5. To insert a cell below - ```B```
+6. To delete a cell - Douple tap ```D```
+7. To switch the cell to markdown mode - ```M```
 
 ---
 # References
