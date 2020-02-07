@@ -194,6 +194,13 @@ sudo -H pip install jupyter
 jupyter notebook #to launch the jupyter notebook
 ```
 (Some commands maybe redundant but this is what worked...)
+## Command mode vs Edit mode in Jupyter notebook
+1. **Command mode** - For notebook level actions, recognised by a blue left margin of the cell and gray rectangle around the cell. 
+To go into command mode, click in the area between the margin of the cell and the typing area.
+2. **Edit mode** - For typing in a cell, recognised by a green left margin of the cell along with green rectangle around the cell. 
+To go into edit mode, just click in the typing area.
+
+```tab```
 
 ## Jupyter keybaord shortcuts
 1. To run a cell and then move to the next cell - **Shift+Enter**  
