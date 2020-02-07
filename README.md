@@ -195,10 +195,15 @@ jupyter notebook #to launch the jupyter notebook
 ```
 (Some commands maybe redundant but this is what worked...)
 
+## Jupyter keybaord shortcuts
+1. To run a cell and then move to the next cell - **Shift+Enter**  
+2. To just run a cell and stay in that cell - **Ctrl+Enter**   
+
 ---
 # References
 1. For git commands - https://rogerdudler.github.io/git-guide/
 2. For using git and GitHub - https://youtu.be/SwK2dPFXhpU
 3. For TMUX - https://youtu.be/Lqehvpe_djs
 4. For git commands with examples - https://rubygarage.org/blog/most-basic-git-commands-with-examples
+5. For Jupyter keyboard shortcuts - http://maxmelnick.com/2016/04/19/python-beginner-tips-and-tricks.html
 
