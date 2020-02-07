@@ -177,6 +177,19 @@ Hit the Prefix key defined as "Ctrl+B" before each of the follwing command:-
 
 All the commands for TMUX can be found here: https://linux.die.net/man/1/tmux
 
+# Installing Jupyter notebook
+This should launch the jupyter notebook with the option to create new files in python 2 and python 3:-
+```
+sudo apt install python-pip
+sudo apt install python3-pip
+pip install notebook
+pip install jupyter
+pip3 install jupyter
+sudo -H pip install jupyter
+jupyter notebook #to launch the jupyter notebook
+```
+(Some commands maybe redundant but this is what worked...)
+
 ---
 # References
 1. For git commands - https://rogerdudler.github.io/git-guide/
