@@ -208,7 +208,7 @@ To go into edit mode, just click in the typing area.
 4. To insert a cell above - ```A```
 5. To insert a cell below - ```B```
 6. To delete a cell - Douple tap ```D```
-7. To switch the cell to markdown mode - ```M```
+7. To switch the cell to markdown mode (used for writing explanations or making subsections) - ```M```
 
 ---
 # References
