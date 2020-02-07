@@ -200,11 +200,11 @@ To go into command mode, click in the area between the margin of the cell and th
 2. **Edit mode** - For typing in a cell, recognised by a green left margin of the cell along with green rectangle around the cell. 
 To go into edit mode, just click in the typing area.
 
-```tab```
+
 
 ## Jupyter keybaord shortcuts
-1. To run a cell and then move to the next cell - **Shift+Enter**  
-2. To just run a cell and stay in that cell - **Ctrl+Enter**   
+1. To run a cell and then move to the next cell - ```Shift```+```Enter``` 
+2. To just run a cell and stay in that cell - ```Ctrl```+```Enter```  
 
 ---
 # References
