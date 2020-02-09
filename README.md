@@ -210,6 +210,24 @@ To go into edit mode, just click in the typing area.
 6. To delete a cell - Douple tap ```D```
 7. To switch the cell to markdown mode (used for writing explanations or making subsections) - ```M```
 
+### Commands to install modules in jupyter
+1. To install numpy:-
+```
+sudo apt-get update
+sudo apt-get install python-pip python3-pip
+sudo pip install numpy
+sudo pip3 install numpy
+```
+2. To install matplotlib:-
+```
+sudo apt-get install python3-matplotlib
+python -m pip install -U matplotlib #(for python 2???)
+```
+3. Installing all relevant packages using pip
+```
+python -m pip install --user numpy scipy matplotlib ipython jupyter pandas sympy nose
+```
+
 ---
 # References
 1. For git commands - https://rogerdudler.github.io/git-guide/
