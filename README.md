@@ -33,8 +33,9 @@ sudo cp -Ri Source_Folder Destination_Folder
 sudo cp -Ri ~/Downloads/tmux.conf  /usr/share/doc/tmux/examples
 ```
 
-# For copying files using GUI:-
+# For copying files using Nautilus GUI:-
 ```bash
+sudo apt install nautilus-admin
 gksu nautilus
 ```
 
@@ -235,4 +236,5 @@ python -m pip install --user numpy scipy matplotlib ipython jupyter pandas sympy
 3. For TMUX - https://youtu.be/Lqehvpe_djs
 4. For git commands with examples - https://rubygarage.org/blog/most-basic-git-commands-with-examples
 5. For Jupyter keyboard shortcuts - http://maxmelnick.com/2016/04/19/python-beginner-tips-and-tricks.html
+6. For using Nautilus - https://vitux.com/how-to-open-and-edit-files-and-folders-in-ubuntu-desktop-as-an-administrator/
 
