@@ -36,7 +36,8 @@ sudo cp -Ri ~/Downloads/tmux.conf  /usr/share/doc/tmux/examples
 # For copying files using Nautilus GUI:-
 ```bash
 sudo apt install nautilus-admin
-gksu nautilus
+nautilus #to open the nautilus file manager with root permissions
+#simply right and choose "Open as Administrator" or to edit a file "Edit as Administrator"
 ```
 
 
