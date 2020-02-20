@@ -163,7 +163,6 @@ To push changes to the existing repository on GitHub:-
 git remote add origin https://github.com/kulbir-ahluwalia/OOP_Python.git 
 git push -u origin master 
 ```
-
 ---
 # Using the terminal multiplexer "TMUX"
 Hit the Prefix key defined as "Ctrl+B" before each of the follwing command:-
@@ -183,6 +182,13 @@ Hit the Prefix key defined as "Ctrl+B" before each of the follwing command:-
 ```
 
 All the commands for TMUX can be found here: https://linux.die.net/man/1/tmux
+
+## Configuring tmux
+```
+tmux show -g | cat > ~/.tmux.conf
+subl ~/.tmux.conf #using sublime to open the hidden file .tmux.conf
+Adding panes
+```
 
 # Installing Jupyter notebook
 This should launch the jupyter notebook with the option to create new files in python 2 and python 3:-
