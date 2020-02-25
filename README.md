@@ -217,7 +217,11 @@ To go into edit mode, just click in the typing area.
 5. To insert a cell below - ```B```
 6. To delete a cell - Douple tap ```D```
 7. To switch the cell to markdown mode (used for writing explanations or making subsections) - ```M```
-
+8. **Important** - To run shell commands in the jupyter notebook, use ```!``` followed by the command as shown:-
+```
+!pwd #followed by Shit+Enter
+```
+Other commands might not work! Double click D in Command mode to delete it.
 ### Commands to install modules in jupyter
 1. To install numpy:-
 ```
