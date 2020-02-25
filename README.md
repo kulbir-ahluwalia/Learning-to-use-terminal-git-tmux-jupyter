@@ -221,6 +221,13 @@ To go into edit mode, just click in the typing area.
 ```
 !pwd #followed by Shit+Enter
 ```
+
+## Jupyter Lab
+Jupyter is cooler than jupyter notebook as it has more functions like accessing all the files open as tabs and also has the terminal. 
+Watch this video to get a feel. https://www.youtube.com/watch?v=4AT1PcbEzjw
+
+
+
 Other commands might not work! Double click D in Command mode to delete it.
 ### Commands to install modules in jupyter
 1. To install numpy:-
