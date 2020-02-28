@@ -184,6 +184,25 @@ Hit the Prefix key defined as "Ctrl+B" before each of the follwing command:-
 All the commands for TMUX can be found here: https://linux.die.net/man/1/tmux
 
 ## Configuring tmux
+Add the following line in your .zshrc file:-
+```
+subl .zshrc #to open .zshrc file
+```
+Add the following line:-
+```
+# Automatically start a tmux session upon logging in.  
+ZSH_TMUX_AUTOSTART="true"  
+```
+Then, add tmux to the list of plugins further down in the .zshrc file as shown:-
+```
+plugins=(  
+  git  
+  sublime  
+  tmux  
+)  
+```
+
+To be edited...
 ```
 tmux show -g | cat > ~/.tmux.conf
 subl ~/.tmux.conf #using sublime to open the hidden file .tmux.conf
