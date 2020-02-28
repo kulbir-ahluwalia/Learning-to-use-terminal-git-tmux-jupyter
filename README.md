@@ -199,8 +199,11 @@ plugins=(
   git  
   sublime  
   tmux  
+  zsh-autosuggestions
 )  
 ```
+Also, install zsh autosuggestions using this link:-
+https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md
 
 To be edited...
 ```
