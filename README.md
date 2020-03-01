@@ -142,6 +142,18 @@ git push -u origin master
 ```
 ---
 
+### Copying an existing git repository
+Just change the working directory to wherever you would like to clone the existing repository. For example, here we clone to the Desktop. Then initialise the empty git repository using **git init**.
+```
+cd ~/Desktop
+git init
+```
+Enter **git clone** followed by the https url of the repo that you want to clone:-
+```
+git clone https://github.com/kulbir-ahluwalia/ENPM_673_Perception.git
+```
+That's all folks! :)
+
 ### Removing files using git 
 
 To remove the file from the git repository and from the directory on your system:-
