@@ -8,8 +8,8 @@ Note:-
 3. You can use .conf files to configure applications like the Z shell or TMUX. ".conf" stands for a **configuration** file used in Ubuntu in this case.
 ```
 # Recommended software for your Ubuntu system:-
-1. **Oh-my-zsh** - Alternative for bash  
-Note for zsh - Install PowerLevel9k theme, zsh-syntax-highlighting, zsh-autosuggestions enabled, fzf (Ctrl+R for searching previously entered commands, Ctrl+T for finding files, Alt+C for changing directory to some folder)
+1. **Oh-my-zsh** - Alternative for bash    
+Note for zsh - Install PowerLevel9k theme, zsh-syntax-highlighting, zsh-autosuggestions enabled, fzf (Ctrl+R for searching previously entered commands, Ctrl+T for finding files, Alt+C for changing directory to some folder)  
 **Make your terminal more productive** - https://medium.com/@ivanaugustobd/seu-terminal-pode-ser-muito-muito-mais-produtivo-3159c8ef77b2
 2. **Tmux** - To organise multiple terminals
 3. **Jupyter lab** - Helps in running sections of your code for testing
