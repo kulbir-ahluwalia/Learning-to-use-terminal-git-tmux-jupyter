@@ -111,7 +111,7 @@ git remote add origin https://github.com/kulbir-ahluwalia/OOP_Python.git
 git push -u origin master     
 ```
 
-### Adding new files using git
+# Adding new files using git
 Create a new file in the directory /home/kulbir/Documents/OOP_Python:-  
 
 ```bash
@@ -142,7 +142,7 @@ git push -u origin master
 ```
 ---
 
-### Copying an existing git repository
+# Cloning an existing git repository
 Just change the working directory to wherever you would like to clone the existing repository. For example, here we clone to the Desktop. Then initialise the empty git repository using **git init**.
 ```
 cd ~/Desktop
@@ -154,7 +154,7 @@ git clone https://github.com/kulbir-ahluwalia/ENPM_673_Perception.git
 ```
 That's all folks! :)
 
-### Removing files using git 
+# Removing files using git 
 
 To remove the file from the git repository and from the directory on your system:-
 Note: "rm" stands for "remove". When you use the following commands, the terminal will retun the message "1 file changed, 1 deletion(-)"
