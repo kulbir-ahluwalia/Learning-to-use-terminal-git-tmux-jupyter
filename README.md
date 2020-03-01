@@ -8,15 +8,16 @@ Note:-
 3. You can use .conf files to configure applications like the Z shell or TMUX. ".conf" stands for a **configuration** file used in Ubuntu in this case.
 ```
 # Recommended software for your Ubuntu system:-
-1. **Oh-my-zsh** - Alternative for bash, PowerLevel9k theme, zsh-syntax-highlighting, zsh-autosuggestions enabled
-**zsh: Syntax Highlighting, vi-mode, Autocomplete, more** - https://www.youtube.com/watch?v=eLEo4OQ-cuQ
+1. **Oh-my-zsh** - Alternative for bash  
+Note for zsh - Install PowerLevel9k theme, zsh-syntax-highlighting, zsh-autosuggestions enabled, fzf (Ctrl+R for searching previously entered commands, Ctrl+T for finding files, Alt+C for changing directory to some folder)
+**Make your terminal more productive** - https://medium.com/@ivanaugustobd/seu-terminal-pode-ser-muito-muito-mais-produtivo-3159c8ef77b2
 2. **Tmux** - To organise multiple terminals
-3. **Jupyter lab** - Helps in running sections of your code for testin
+3. **Jupyter lab** - Helps in running sections of your code for testing
 4. **PyCharm** - IDE for python, helps in visualising variable values, debugging
-5. ROS Melodic for Ubuntu 18.04, ROS Kinetic for Ubuntu 16.04
-6. Sublime text
+5. **ROS Melodic** for **Ubuntu 18.04**, ROS Kinetic for Ubuntu 16.04
+6. **Sublime text**
 7. Google Chrome
-8. OpenCV - Build from source to optimize for your system - https://linuxize.com/post/how-to-install-opencv-on-ubuntu-18-04/#installing-opencv-from-the-source
+8. **OpenCV** - Build from source to optimize for your system - https://linuxize.com/post/how-to-install-opencv-on-ubuntu-18-04/#installing-opencv-from-the-source
 
 # Helpful tips and commands for using the terminal
 1. For copying in terminal, use Ctrl+Shift+C. 
