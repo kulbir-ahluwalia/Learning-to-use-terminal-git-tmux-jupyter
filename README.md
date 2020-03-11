@@ -190,6 +190,11 @@ To push changes to the existing repository on GitHub:-
 git remote add origin https://github.com/kulbir-ahluwalia/OOP_Python.git 
 git push -u origin master 
 ```
+
+# Using Git Large File Storage
+For uploading files greater than 100 MB to your GitHub repo, Just follow the steps here:-
+https://git-lfs.github.com/ 
+
 ---
 # Using the terminal multiplexer "TMUX"
 Hit the Prefix key defined as "Ctrl+B" before each of the follwing command:-
