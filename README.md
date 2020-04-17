@@ -214,6 +214,19 @@ Hit the Prefix key defined as "Ctrl+B" before each of the follwing command:-
 ```
 
 All the commands for TMUX can be found here: https://linux.die.net/man/1/tmux
+## Configuring oh-my-zsh
+1. Installing auto-suggestions
+```
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+plugins=(zsh-autosuggestions)
+```
+2. Install fzf. fzf is an interactive fuzzy file search tool on the command-line. It is fast and powerful. 
+Refer - https://jdhao.github.io/2018/11/05/fzf_install_use/
+```
+git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+~/.fzf/install
+```
+
 
 ## Configuring tmux
 Add the following line in your .zshrc file:-
