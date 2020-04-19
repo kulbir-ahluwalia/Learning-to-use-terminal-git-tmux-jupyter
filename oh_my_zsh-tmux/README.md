@@ -20,7 +20,6 @@ sudo usermod --shell $(which zsh) $USER
 1. Installing auto-suggestions
 ```
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
-plugins=(zsh-autosuggestions)    #to add the "zsh-autosuggestions" in plugins
 ```
 2. Install fzf. fzf is an interactive fuzzy file search tool on the command-line. It is fast and powerful. 
 Refer - https://jdhao.github.io/2018/11/05/fzf_install_use/
@@ -30,8 +29,26 @@ git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 ```
 3. Installing syntax highlighting
 ```
-git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ {ZSH_CUSTOM: - ~ / .oh-my-zsh / custom} / plugins / zsh-syntax-highlighting 
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ {ZSH_CUSTOM: - ~ / .oh-my-zsh / custom} / plugins / zsh- 
 ```
+## Adding the name of plugins in .zshrc
+Open .zshrc using sublime text:
+```
+subl .zshrc
+Add ```zsh-autosuggestions```,```fzf``` and ```zsh-syntax-highlighting``` in plugins=() so that it looks like:
+```bash
+plugins=(
+	git
+	zsh-autosuggestions
+	fzf
+	zsh-syntax-highlighting
+	)
+```
+Save your .zshrc and then source it using:
+```
+source .zshrc
+```
+After you restart your terminal, you should see the effects of installing these plugins.
 
 # Using the terminal multiplexer "TMUX"
 Hit the Prefix key defined as "Ctrl+B" before each of the follwing command:-
