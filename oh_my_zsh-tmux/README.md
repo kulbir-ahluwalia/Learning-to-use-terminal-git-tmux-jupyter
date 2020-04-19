@@ -1,5 +1,38 @@
+# About Oh-my-zsh
+**Oh-my-zsh** - Alternative for bash    
+Note for zsh - Install PowerLevel9k theme, zsh-syntax-highlighting, zsh-autosuggestions enabled, fzf (Ctrl+R for searching previously entered commands, Ctrl+T for finding files, Alt+C for changing directory to some folder)  
+**Make your terminal more productive** - https://medium.com/@ivanaugustobd/seu-terminal-pode-ser-muito-muito-mais-produtivo-3159c8ef77b2
 
----
+## Install zsh
+```
+#First, in order to check if you're using zsh or bash:
+echo $0
+#to install zsh:-
+sudo apt install zsh
+```
+
+# Installing and configuring oh-my-zsh
+To install oh-my-zsh:-
+```
+curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh; zsh
+sudo usermod --shell $(which zsh) $USER
+```
+1. Installing auto-suggestions
+```
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+plugins=(zsh-autosuggestions)    #to add the "zsh-autosuggestions" in plugins
+```
+2. Install fzf. fzf is an interactive fuzzy file search tool on the command-line. It is fast and powerful. 
+Refer - https://jdhao.github.io/2018/11/05/fzf_install_use/
+```
+git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+~/.fzf/install
+```
+3. Installing syntax highlighting
+```
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ {ZSH_CUSTOM: - ~ / .oh-my-zsh / custom} / plugins / zsh-syntax-highlighting 
+```
+
 # Using the terminal multiplexer "TMUX"
 Hit the Prefix key defined as "Ctrl+B" before each of the follwing command:-
 ```bash
@@ -19,25 +52,8 @@ Hit the Prefix key defined as "Ctrl+B" before each of the follwing command:-
 
 All the commands for TMUX can be found here: https://linux.die.net/man/1/tmux
 
-## Installing and configuring oh-my-zsh
-To install oh-my-zsh:-
-```
-sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-```
-1. Installing auto-suggestions
-```
-git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
-plugins=(zsh-autosuggestions)
-```
-2. Install fzf. fzf is an interactive fuzzy file search tool on the command-line. It is fast and powerful. 
-Refer - https://jdhao.github.io/2018/11/05/fzf_install_use/
-```
-git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
-~/.fzf/install
-```
 
-
-## Configuring tmux
+# Configuring tmux
 Add the following line in your .zshrc file:-
 ```
 subl .zshrc #to open .zshrc file
