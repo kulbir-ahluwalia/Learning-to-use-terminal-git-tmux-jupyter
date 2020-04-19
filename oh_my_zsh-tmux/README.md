@@ -104,7 +104,7 @@ Comment the ZSH theme that you had previously. In my case, it was ```ZSH_THEME="
 #ZSH_THEME="robbyrussell"
 ZSH_THEME="powerlevel10k/powerlevel10k"
 ```
-
+Configure the powerlevel10k theme from the terminal by choosing from the options that come up on the terminal.
 
 To be edited...
 ```
