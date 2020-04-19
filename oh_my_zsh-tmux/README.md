@@ -35,6 +35,7 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ {ZSH_CUSTOM
 Open .zshrc using sublime text:
 ```
 subl .zshrc
+```
 Add ```zsh-autosuggestions```,```fzf``` and ```zsh-syntax-highlighting``` in plugins=() so that it looks like:
 ```bash
 plugins=(
