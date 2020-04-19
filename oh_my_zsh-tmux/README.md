@@ -1,6 +1,6 @@
 # About Oh-my-zsh
 **Oh-my-zsh** - Alternative for bash    
-Note for zsh - Install PowerLevel9k theme, zsh-syntax-highlighting, zsh-autosuggestions enabled, fzf (Ctrl+R for searching previously entered commands, Ctrl+T for finding files, Alt+C for changing directory to some folder)  
+Note for zsh - Install PowerLevel10k theme, zsh-syntax-highlighting, zsh-autosuggestions enabled, fzf (Ctrl+R for searching previously entered commands, Ctrl+T for finding files, Alt+C for changing directory to some folder)  
 **Make your terminal more productive** - https://medium.com/@ivanaugustobd/seu-terminal-pode-ser-muito-muito-mais-produtivo-3159c8ef77b2
 
 ## Install zsh
@@ -91,6 +91,19 @@ plugins=(
 ```
 Also, install zsh autosuggestions using this link:-
 https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md
+
+## Installing PowerLevel 10K theme
+```
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
+```
+
+Add the line ```ZSH_THEME="powerlevel10k/powerlevel10k"``` in your .zshrc file.
+Comment the ZSH theme that you had previously. In my case, it was ```ZSH_THEME="robbyrussell"```. Comment it. End result:
+```bash
+#ZSH_THEME="robbyrussell"
+ZSH_THEME="powerlevel10k/powerlevel10k"
+```
+
 
 To be edited...
 ```
