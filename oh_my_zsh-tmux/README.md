@@ -51,6 +51,13 @@ source .zshrc
 ```
 After you restart your terminal, you should see the effects of installing these plugins.
 
+## Using zsh with ROS
+You have to execute the following commands to your .zshrc file to source the environment variables in your terminal:
+```
+echo "source /opt/ros/kinetic/setup.zsh" >> ~/.zshrc
+source ~/.zshrc
+```
+
 # Using the terminal multiplexer "TMUX"
 Hit the Prefix key defined as "Ctrl+B" before each of the follwing command:-
 ```bash
