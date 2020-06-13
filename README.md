@@ -3,7 +3,12 @@ Credits: I am thankful to my friends Sandeep Kota and Vishnu Dorbala for their s
 To make a bootable pen drive using Ubuntu:
 https://www.linuxtechi.com/create-bootable-usb-disk-dvd-ubuntu-linux-mint/
 
-
+Adjust brightness, add a brightness controller:
+```
+sudo add-apt-repository ppa:apandada1/brightness-controller
+sudo apt update
+sudo apt install brightness-controller
+```
 
 ```
 Note:-
