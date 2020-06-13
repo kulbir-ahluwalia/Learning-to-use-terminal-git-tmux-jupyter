@@ -10,6 +10,11 @@ echo $0
 #to install zsh:-
 sudo apt install zsh
 ```
+# Install curl, git
+```
+sudo apt install curl
+sudo apt install git-all
+```
 
 # Installing and configuring oh-my-zsh
 To install oh-my-zsh:-
