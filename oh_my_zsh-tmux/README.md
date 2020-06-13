@@ -55,6 +55,7 @@ Save your .zshrc and then source it using:
 source .zshrc
 ```
 After you restart your terminal, you should see the effects of installing these plugins.
+If not, log out and log back in.
 
 ## Using zsh with ROS
 You have to execute the following commands to your .zshrc file to source the environment variables in your terminal:
