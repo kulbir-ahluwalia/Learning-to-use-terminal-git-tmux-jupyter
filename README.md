@@ -1,5 +1,9 @@
 Credits: I am thankful to my friends Sandeep Kota and Vishnu Dorbala for their support and guidance. The following work largely consists of tips and tricks I learnt from them.
 
+To make a bootable pen drive using Ubuntu:
+https://www.linuxtechi.com/create-bootable-usb-disk-dvd-ubuntu-linux-mint/
+
+
 
 ```
 Note:-
