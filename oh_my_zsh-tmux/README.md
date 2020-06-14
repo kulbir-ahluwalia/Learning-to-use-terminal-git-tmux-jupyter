@@ -11,6 +11,18 @@ sudo add-apt-repository "deb https://download.sublimetext.com/ apt/stable/"
 sudo apt update
 sudo apt install sublime-text
 ```
+
+## Install Pycharm and CLion
+```
+sudo apt update
+sudo apt install snapd
+#for Pycharm PE
+sudo snap install pycharm-professional --classic	
+#for PyCharm CE
+sudo snap install pycharm-community --classic
+#for CLion
+sudo snap install clion --classic
+```
 ## Install zsh
 ```
 #First, in order to check if you're using zsh or bash:
