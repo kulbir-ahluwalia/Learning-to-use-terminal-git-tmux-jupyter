@@ -2,7 +2,15 @@
 **Oh-my-zsh** - Alternative for bash    
 Note for zsh - Install PowerLevel10k theme, zsh-syntax-highlighting, zsh-autosuggestions enabled, fzf (Ctrl+R for searching previously entered commands, Ctrl+T for finding files, Alt+C for changing directory to some folder)  
 **Make your terminal more productive** - https://medium.com/@ivanaugustobd/seu-terminal-pode-ser-muito-muito-mais-produtivo-3159c8ef77b2
-
+## Install Sublime text
+```
+sudo apt update
+sudo apt install apt-transport-https ca-certificates curl software-properties-common
+curl -fsSL https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
+sudo add-apt-repository "deb https://download.sublimetext.com/ apt/stable/"
+sudo apt update
+sudo apt install sublime-text
+```
 ## Install zsh
 ```
 #First, in order to check if you're using zsh or bash:
@@ -57,6 +65,20 @@ source .zshrc
 After you restart your terminal, you should see the effects of installing these plugins.
 If not, log out and log back in.
 
+
+## Installing PowerLevel 10K theme
+```
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
+```
+
+Add the line ```ZSH_THEME="powerlevel10k/powerlevel10k"``` in your .zshrc file.
+Comment the ZSH theme that you had previously. In my case, it was ```ZSH_THEME="robbyrussell"```. Comment it. End result:
+```bash
+#ZSH_THEME="robbyrussell"
+ZSH_THEME="powerlevel10k/powerlevel10k"
+```
+Configure the powerlevel10k theme from the terminal by choosing from the options that come up on the terminal.
+
 ## Using zsh with ROS
 You have to execute the following commands to your .zshrc file to source the environment variables in your terminal:
 ```
@@ -106,18 +128,6 @@ plugins=(
 Also, install zsh autosuggestions using this link:-
 https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md
 
-## Installing PowerLevel 10K theme
-```
-git clone --depth=1 https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
-```
-
-Add the line ```ZSH_THEME="powerlevel10k/powerlevel10k"``` in your .zshrc file.
-Comment the ZSH theme that you had previously. In my case, it was ```ZSH_THEME="robbyrussell"```. Comment it. End result:
-```bash
-#ZSH_THEME="robbyrussell"
-ZSH_THEME="powerlevel10k/powerlevel10k"
-```
-Configure the powerlevel10k theme from the terminal by choosing from the options that come up on the terminal.
 
 To be edited...
 ```
