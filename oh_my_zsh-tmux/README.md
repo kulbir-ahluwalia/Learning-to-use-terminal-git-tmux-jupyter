@@ -11,6 +11,8 @@ sudo add-apt-repository "deb https://download.sublimetext.com/ apt/stable/"
 sudo apt update
 sudo apt install sublime-text
 ```
+## Install driver for Wifi: Killer AX1650 In Debian/Ubuntu 16.04+
+https://support.killernetworking.com/knowledge-base/killer-ax1650-in-debian-ubuntu-16-04/
 
 ## Install Pycharm and CLion
 ```
