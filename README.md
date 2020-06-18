@@ -245,6 +245,8 @@ To go into edit mode, just click in the typing area.
 Jupyter is cooler than jupyter notebook as it has more functions like accessing all the files open as tabs and also has the terminal. Watch this video to get a feel. https://www.youtube.com/watch?v=4AT1PcbEzjw. To install jupyter lab:-
 ```zsh
 pip install jupyterlab
+pip3 install jupyterlab
+pip3 install --user nodejs  #required by jupyter lab
 jupyter lab #to launch jupyter lab
 ```
 
