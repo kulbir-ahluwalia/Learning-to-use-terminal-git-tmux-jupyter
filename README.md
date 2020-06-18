@@ -211,9 +211,13 @@ This should launch the jupyter notebook with the option to create new files in p
 sudo apt install python-pip
 sudo apt install python3-pip
 pip install notebook
-pip install jupyter
-pip3 install jupyter
+python -m pip install --upgrade pip setuptools wheel
 sudo -H pip install jupyter
+```
+While pip alone is sufficient to install from pre-built binary archives, up to date copies of the setuptools and wheel projects are useful to ensure you can also install from source archives https://packaging.python.org/tutorials/installing-packages/:
+```
+pip3 install setuptools wheel
+pip3 install jupyter
 jupyter notebook #to launch the jupyter notebook
 ```
 (Some commands maybe redundant but this is what worked...)
