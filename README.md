@@ -240,6 +240,8 @@ To go into edit mode, just click in the typing area.
 ```
 !pwd #followed by Shit+Enter
 ```
+Other commands might not work! Double click D in Command mode to delete it.
+
 
 ## Jupyter Lab
 Jupyter is cooler than jupyter notebook as it has more functions like accessing all the files open as tabs and also has the terminal. Watch this video to get a feel. https://www.youtube.com/watch?v=4AT1PcbEzjw. To install jupyter lab:-
@@ -250,7 +252,6 @@ pip3 install --user nodejs  #required by jupyter lab
 jupyter lab #to launch jupyter lab
 ```
 
-Other commands might not work! Double click D in Command mode to delete it.
 ### Commands to install modules in jupyter
 1. To install numpy:-
 ```
@@ -259,16 +260,28 @@ sudo apt-get install python-pip python3-pip
 sudo pip install numpy
 sudo pip3 install numpy
 ```
-2. To install matplotlib:-
+2. To install matplotlib for python3:-
 ```
 sudo apt-get install python3-matplotlib
-python -m pip install -U matplotlib #(for python 2???)
 ```
 3. Installing all relevant packages using pip
 ```
 python -m pip install --user numpy scipy matplotlib ipython jupyter pandas sympy nose
 ```
-
+4. Install scikit learn using:
+```
+pip install -U scikit-learn
+pip3 install -U scikit-learn
+python -m pip show scikit-learn # to see which version and where scikit-learn is installed
+```
+4. Install pandas using:
+```
+#Dependencies for pandas: setuptools, NumPy, python-dateutil, pytz
+pip install python-dateutil
+pip3 install python-dateutil
+pip install pandas
+pip3 install pandas
+```
 ---
 # References
 1. For git commands - https://rogerdudler.github.io/git-guide/
