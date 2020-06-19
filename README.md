@@ -24,6 +24,8 @@ Note for zsh - Install PowerLevel9k theme, zsh-syntax-highlighting, zsh-autosugg
 3. **Jupyter lab** - Helps in running sections of your code for testing
 4. **PyCharm** - IDE for python, helps in visualising variable values, debugging - Go to settings>plugins. then search for spacegray theme and install it.
 - In editor>colour scheme select Monokai. To get a sublime text editor *like* feel.
+4.5. **CLion** - IDE for C++. Go to settings>plugins. then search for spacegray theme and install it.
+- In editor>colour scheme select Vibrant Ink. Saves a lot of energy for OLED screens.
 5. **ROS Melodic** for **Ubuntu 18.04**, ROS Kinetic for Ubuntu 16.04
 6. **Sublime text**
 7. Google Chrome
