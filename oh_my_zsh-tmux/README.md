@@ -101,6 +101,11 @@ source ~/.zshrc
 ```
 
 # Using the terminal multiplexer "TMUX"
+Install it using:
+```
+sudo apt-get install tmux
+```
+To start tmux, just enter tmux in the terminal and press enter.
 Hit the Prefix key defined as "Ctrl+B" before each of the follwing command:-
 ```bash
 1. % - for vertical splitting of the terminal into two terminals
