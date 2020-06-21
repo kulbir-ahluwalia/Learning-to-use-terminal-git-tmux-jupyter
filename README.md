@@ -285,6 +285,13 @@ pip3 install python-dateutil
 pip install pandas
 pip3 install pandas
 ```
+
+# C++ in Jupyter
+Install clang
+```
+sudo apt update
+sudo apt install clang
+```
 ---
 # References
 1. For git commands - https://rogerdudler.github.io/git-guide/
