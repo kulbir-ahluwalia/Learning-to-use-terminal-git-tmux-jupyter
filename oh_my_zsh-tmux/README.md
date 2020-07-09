@@ -9,7 +9,10 @@ git remote add upstream https://github.com/kanishkaganguly/shadowevents.git   #t
 # then, view all the remote repos again to see the changes using:
 git remote -v 
 ```
-
+To see the changes ina file:
+```
+git log -p <file name>
+```
 
  
 official source for managing remote repositories :
