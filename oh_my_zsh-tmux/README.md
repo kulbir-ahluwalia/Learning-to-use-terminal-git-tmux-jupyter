@@ -1,7 +1,19 @@
 # Git commands
-1. You can make branches for different versions of a repo
-2. You can fork a repo and then initiate a pull request (PR) to merge into the parent repo.
+1. You can make branches for different versions of a repo, there is also the option to merge the branch into the master branch.
+2. You can fork a repo to get a exact same copy of the repo in your account, and then initiate a pull request (PR) to transfer your changes into the parent repo.
+3. I have made a separate branch with all my changes in my forked repo, But how do I pull your original repo to my forked repo?
+```
+git remote -v   #to view remotes at present
+git remote add upstream https://github.com/kanishkaganguly/shadowevents.git   #to add the repo "shadowevents" with the remote name "upstream".
+#you could have also named it "test_name"	
+# then, view all the remote repos again to see the changes using:
+git remote -v 
+```
 
+
+ 
+official source for managing remote repositories :
+ https://docs.github.com/en/github/using-git/managing-remote-repositories
 
 
 
