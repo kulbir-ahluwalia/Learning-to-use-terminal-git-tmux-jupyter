@@ -1,3 +1,10 @@
+# Git commands
+1. You can make branches for different versions of a repo
+2. You can fork a repo and then initiate a pull request (PR) to merge into the parent repo.
+
+
+
+
 # About Oh-my-zsh
 **Oh-my-zsh** - Alternative for bash    
 Note for zsh - Install PowerLevel10k theme, zsh-syntax-highlighting, zsh-autosuggestions enabled, fzf (Ctrl+R for searching previously entered commands, Ctrl+T for finding files, Alt+C for changing directory to some folder)  
