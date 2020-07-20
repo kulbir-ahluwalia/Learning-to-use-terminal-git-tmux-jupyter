@@ -57,7 +57,7 @@ sudo apt install zsh
 # Install curl, git
 ```
 sudo apt install curl
-sudo apt install git-all
+sudo apt-get install git
 ```
 
 # Installing and configuring oh-my-zsh
