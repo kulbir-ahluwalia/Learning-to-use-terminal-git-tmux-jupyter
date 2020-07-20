@@ -213,6 +213,8 @@ This should launch the jupyter notebook with the option to create new files in p
 ```
 sudo apt install python-pip
 sudo apt install python3-pip
+pip install --upgrade pip
+pip3 install --upgrade pip
 pip install notebook
 python -m pip install --upgrade pip setuptools wheel
 sudo -H pip install jupyter
