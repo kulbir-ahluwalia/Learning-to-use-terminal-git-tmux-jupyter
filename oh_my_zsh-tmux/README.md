@@ -169,7 +169,14 @@ plugins=(
 Also, install zsh autosuggestions using this link:-
 https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md
 
-
+# Enabling pane change, scroll using mouse 
+```
+subl .tmux.conf 
+#write the following line in the .tmux.conf file
+set-option -g mouse on #this will enable scrolling and pane selection, but then you need to press shift to select text using the mouse
+#then save the file, come back to the terminal, then:
+tmux source-file ~/.tmux.conf
+```
 To be edited...
 ```
 tmux show -g | cat > ~/.tmux.conf
