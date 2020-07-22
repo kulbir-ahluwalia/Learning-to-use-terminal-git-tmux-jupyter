@@ -44,6 +44,7 @@ Note for zsh - Install PowerLevel9k theme, zsh-syntax-highlighting, zsh-autosugg
 8. **~** refers to the path **/home/kulbir**
 9. To check your working directory, use the command **pwd**. It will tell you the path of the current working directory.
 10. You probably know this, but yes, I will write it. The shortcut to open the terminal is **Ctrl+Alt+T**. 
+11. You can copy a folder using Ctrl+C and then when you paste it in the terminal or in a text editor you'll directly get the path of that folder!
 
 # WATCH THIS VIDEO - Thank me later
 Terminal vs. Bash vs. Command line vs. Prompt
