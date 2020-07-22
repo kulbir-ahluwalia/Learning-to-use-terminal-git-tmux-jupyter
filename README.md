@@ -302,7 +302,8 @@ sudo apt update
 #Open additional drivers tab in softwares and updates
 #choose your driver version and click apply changes
 #reboot, use nvidia-smi to check the driver version
-
+sudo prime-select intel   # switch to intel
+sudo prime-select nvidia  # switch to nvidia
 ```
 
 
