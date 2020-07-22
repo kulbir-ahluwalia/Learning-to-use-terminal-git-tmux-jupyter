@@ -296,16 +296,24 @@ sudo apt install clang
 ```
 
 # Install nvidia driver in Ubuntu 16.04
-```
+```bash
+prime-select query     #to see which graphic card is being used right now
 sudo add-apt-repository ppa:graphics-drivers/ppa
 sudo apt update
 #Open additional drivers tab in softwares and updates
+software-properties-gtk  #to open softwares and updates
 #choose your driver version and click apply changes
 #reboot, use nvidia-smi to check the driver version
 sudo prime-select intel   # switch to intel
 sudo prime-select nvidia  # switch to nvidia
-```
 
+sudo ubuntu-drivers devices    #to see recommended drivers for the graphic cards that you have
+nvidia-settings    #to open nvidia x server settings
+
+#in case you want to uninstall all nvidia drivers,
+sudo apt purge nvidia-*
+```
+Ref - https://www.linuxbabe.com/desktop-linux/switch-intel-nvidia-graphics-card-ubuntu
 
 ---
 # References
