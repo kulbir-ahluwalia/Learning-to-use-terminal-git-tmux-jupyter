@@ -294,6 +294,18 @@ Install clang
 sudo apt update
 sudo apt install clang
 ```
+
+# Install nvidia driver in Ubuntu 16.04
+```
+sudo add-apt-repository ppa:graphics-drivers/ppa
+sudo apt update
+#Open additional drivers tab in softwares and updates
+#choose your driver version and click apply changes
+#reboot, use nvidia-smi to check the driver version
+
+```
+
+
 ---
 # References
 1. For git commands - https://rogerdudler.github.io/git-guide/
