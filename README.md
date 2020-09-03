@@ -35,6 +35,7 @@ Note for zsh - Install PowerLevel9k theme, zsh-syntax-highlighting, zsh-autosugg
 https://www.tecmint.com/psensor-monitors-hardware-temperature-in-linux/
 10. OBS studio - to record the screen - ```sudo snap install obs-studio```
 11. VLC media player - ```sudo snap install vlc```
+12. Install snap - ```sudo apt update``` and then ```sudo apt install snapd```
 
 # Helpful tips and commands for using the terminal
 1. For copying in terminal, use Ctrl+Shift+C. 
