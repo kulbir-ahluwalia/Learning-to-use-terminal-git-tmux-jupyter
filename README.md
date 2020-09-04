@@ -104,12 +104,12 @@ sudo apt-get install git
 
 Setup username:-    
 ```bash
-git config --global user.name "kulbir-ahluwalia"
+git config --global user.name "username"   #kulbir-ahluwalia
 ```  
 
 Setup email:-  
 ```bash
-git config --global user.email "kulbir@terpmail.umd.edu" 
+git config --global user.email "your github registered email" #kulbir@terpmail.umd.edu
 ```  
 
 Make a directory in your PC:-  
