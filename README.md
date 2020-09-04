@@ -31,11 +31,17 @@ Note for zsh - Install PowerLevel9k theme, zsh-syntax-highlighting, zsh-autosugg
 6. **Sublime text**
 7. Google Chrome
 8. **OpenCV** - Build from source to optimize for your system - https://linuxize.com/post/how-to-install-opencv-on-ubuntu-18-04/#installing-opencv-from-the-source
-9. To monitor the temperature of your CPU cores and GPU, use Psensors. It has a GUI too:
+9. **Psensors**: To monitor the temperature of your CPU cores and GPU, use Psensors. It has a GUI too:
 https://www.tecmint.com/psensor-monitors-hardware-temperature-in-linux/
-10. OBS studio - to record the screen - ```sudo snap install obs-studio```
-11. VLC media player - ```sudo snap install vlc```
-12. Install snap - ```sudo apt update``` and then ```sudo apt install snapd```
+```
+sudo apt-get install lm-sensors hddtemp  
+sudo apt-get install psensor -y
+sensors #to see temperatures
+```
+
+10. **OBS studio** - to record the screen - ```sudo snap install obs-studio```
+11. **VLC media player** - ```sudo snap install vlc```
+12. Install **snap** - ```sudo apt update``` and then ```sudo apt install snapd```
 
 # Helpful tips and commands for using the terminal
 1. For copying in terminal, use Ctrl+Shift+C. 
