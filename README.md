@@ -42,6 +42,7 @@ sensors #to see temperatures
 10. **OBS studio** - to record the screen - ```sudo snap install obs-studio```
 11. **VLC media player** - ```sudo snap install vlc```
 12. Install **snap** - ```sudo apt update``` and then ```sudo apt install snapd```
+13. Install zoom - ```sudo snap install zoom-client   ```
 
 # Helpful tips and commands for using the terminal
 1. For copying in terminal, use Ctrl+Shift+C. 
