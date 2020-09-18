@@ -122,6 +122,20 @@ echo "source /opt/ros/kinetic/setup.zsh" >> ~/.zshrc
 source ~/.zshrc
 ```
 
+## Uninstalling zsh and oh-my-zsh
+```
+#Run the following command in the terminal to uninstall oh-my-zsh
+uninstall_oh_my_zsh
+
+# switch default shell to bash from zsh
+chsh -s /bin/bash ksa
+
+#then uninstall zsh
+sudo apt-get --purge remove zsh
+
+#restart terminal
+```
+
 # Using the terminal multiplexer "TMUX"
 Install it using:
 ```
