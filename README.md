@@ -33,6 +33,7 @@ Note for zsh - Install PowerLevel9k theme, zsh-syntax-highlighting, zsh-autosugg
 8. **OpenCV** - Build from source to optimize for your system - https://linuxize.com/post/how-to-install-opencv-on-ubuntu-18-04/#installing-opencv-from-the-source
 9. **Psensors**: To monitor the temperature of your CPU cores and GPU, use Psensors. It has a GUI too:
 https://www.tecmint.com/psensor-monitors-hardware-temperature-in-linux/
+10. **Terminator** - Easier to use than TMUX. https://dev.to/xeroxism/how-to-install-terminator-a-linux-terminal-emulator-on-steroids-1m3h 
 ```
 sudo apt-get install lm-sensors hddtemp  
 sudo apt-get install psensor -y
