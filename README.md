@@ -273,28 +273,18 @@ jupyter lab #to launch jupyter lab
 ```
 
 ### Commands to install modules in jupyter
-1. To install numpy:-
+1. To install numpy, scipy, matplotlib, sympy and :-
 ```
-sudo apt-get update
-sudo apt-get install python-pip python3-pip
-sudo pip install numpy
-sudo pip3 install numpy
+pip3 install numpy scipy matplotlib pandas sympy
 ```
-2. To install matplotlib for python3:-
-```
-sudo apt-get install python3-matplotlib
-```
-3. Installing all relevant packages using pip
-```
-python -m pip install --user numpy scipy matplotlib ipython jupyter pandas sympy nose
-```
-4. Install scikit learn using:
+
+2. Install scikit learn using:
 ```
 pip install -U scikit-learn
 pip3 install -U scikit-learn
 python -m pip show scikit-learn # to see which version and where scikit-learn is installed
 ```
-4. Install pandas using:
+3. Install pandas using:
 ```
 #Dependencies for pandas: setuptools, NumPy, python-dateutil, pytz
 pip install python-dateutil
