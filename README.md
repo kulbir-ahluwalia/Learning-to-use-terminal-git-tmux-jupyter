@@ -184,6 +184,11 @@ git push -u origin master
 ```
 ---
 
+# Converting a git repository folder to a normal folder
+To do this, press ```Ctrl+H``` to view the hidden files and folders in your git repository folder.   
+Then, just delete the .git folder and the .gitignore file.   
+Ps - especially helpful when you want to convert a folder (with multiple git repo folders in it) to a git repo itself. You can make all git repo folders inside it into normal folders and then convert the main folder into a git repo.
+
 # Cloning an existing git repository
 Just change the working directory to wherever you would like to clone the existing repository. For example, here we clone to the Desktop. Then initialise the empty git repository using **git init**.
 ```
