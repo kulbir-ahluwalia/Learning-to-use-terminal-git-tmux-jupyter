@@ -36,6 +36,8 @@ https://www.tecmint.com/psensor-monitors-hardware-temperature-in-linux/
 10. **Terminator** - Easier to use than TMUX. https://dev.to/xeroxism/how-to-install-terminator-a-linux-terminal-emulator-on-steroids-1m3h 
 11. Pip: sudo apt install python3-pip
 12. Nautilus: sudo apt-get install nautilus 
+13. Slack: sudo snap install slack
+14. Signal: sudo snap install signal-desktop
 ```
 sudo apt-get install lm-sensors hddtemp  
 sudo apt-get install psensor -y
