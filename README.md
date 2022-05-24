@@ -34,6 +34,8 @@ Note for zsh - Install PowerLevel9k theme, zsh-syntax-highlighting, zsh-autosugg
 9. **Psensors**: To monitor the temperature of your CPU cores and GPU, use Psensors. It has a GUI too:
 https://www.tecmint.com/psensor-monitors-hardware-temperature-in-linux/
 10. **Terminator** - Easier to use than TMUX. https://dev.to/xeroxism/how-to-install-terminator-a-linux-terminal-emulator-on-steroids-1m3h 
+11. Pip: sudo apt install python3-pip
+12. Nautilus: sudo apt-get install nautilus 
 ```
 sudo apt-get install lm-sensors hddtemp  
 sudo apt-get install psensor -y
